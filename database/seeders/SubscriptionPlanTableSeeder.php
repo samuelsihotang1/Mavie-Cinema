@@ -18,14 +18,14 @@ class SubscriptionPlanTableSeeder extends Seeder
         $subscriptionPlans = [
             [
                 'name' => 'Basic',
-                'price' => 200000,
-                'active_period_in_months' => 3,
+                'price' => 49000,
+                'active_period_in_months' => 1,
                 'features' => json_encode(['feature1', 'feature2']),
             ],
             [
                 'name' => 'Premium',
-                'price' => 800000,
-                'active_period_in_months' => 6,
+                'price' => 89000,
+                'active_period_in_months' => 1,
                 'features' => json_encode(['feature1', 'feature2', 'feature3', 'feature4']),
             ],
         ];

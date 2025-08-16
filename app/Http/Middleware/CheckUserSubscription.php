@@ -4,25 +4,26 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Auth;
 
-class CheckUserSubscription
+class checkUserSubscription
 {
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
-     * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
+     * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
-    public function handle(Request $request, Closure $next, $status)
-    {
-        if ($status == 'true' && !Auth::user()->isActive) {
-            return redirect(route('user.dashboard.subscriptionPlan.index'));
-        }
-        if ($status == 'false' && Auth::user()->isActive) {
-            return redirect(route('user.dashboard.index'));
-        }
-        return $next($request);
+public function handle(Request $request, Closure $next, $status)
+{
+    if ($status == 'true' && !Auth::user()->isActive) {
+        return redirect(route('user.dashboard.subscriptionPlan.index'));
     }
+
+    if ($status == 'false' && Auth::user()->isActive) {
+        return redirect(route('user.dashboard.index'));
+    }
+
+    return $next($request);
+}
 }

@@ -38,6 +38,12 @@ class SubscriptionPlanController extends Controller
 
     public function userSubscribe(Request $request, SubscriptionPlan $subscriptionPlan)
     {
+        if ($request->isMethod('get')) {
+            return inertia('User/Dashboard/SubscriptionPlan/Index', [
+                'subscriptionPlans' => SubscriptionPlan::all(),
+                'userSubscription' => null,
+            ]);
+        }
         $data = [
             'user_id' => Auth::id(),
             'subscription_plan_id' => $subscriptionPlan->id,

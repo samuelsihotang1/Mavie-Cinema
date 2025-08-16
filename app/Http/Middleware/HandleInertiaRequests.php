@@ -4,7 +4,7 @@ namespace App\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Inertia\Middleware;
-use Tightenco\Ziggy\Ziggy;
+use Tighten\Ziggy\Ziggy;
 use Auth;
 use Carbon\Carbon;
 use Session;
@@ -46,11 +46,11 @@ class HandleInertiaRequests extends Middleware
 
         $lastDay = Carbon::parse($activePlan->updated_at)->addMonths($activePlan->subscriptionPlan->active_period_in_months);
         $activeDays = Carbon::parse($activePlan->updated_at)->diffInDays($lastDay);
-        $remaingActiveDays = Carbon::parse($activePlan->expired_date)->diffInDays(Carbon::now());
+        $remainingActiveDays = ceil(Carbon::parse($activePlan->expired_date)->diffInDays(Carbon::now()) * -1);
 
         return [
             'name' => $activePlan->subscriptionPlan->name,
-            'remainingActiveDays' => $remaingActiveDays,
+            'remainingActiveDays' => $remainingActiveDays,
             'activeDays' => $activeDays,
         ];
     }
