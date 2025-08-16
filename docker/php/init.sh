@@ -19,8 +19,7 @@ if [ ! -f "$SETUP_LOCK_FILE" ]; then
 
     chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
     chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
-
-    sed -i "s/^APP_ENV=.*/APP_ENV=production/" .env
+    
     sed -i "s/^DB_CONNECTION=.*/DB_CONNECTION=${DB_CONNECTION}/" .env
     sed -i "s/^#* *DB_HOST=.*/DB_HOST=${DB_HOST}/" .env
     sed -i "s/^#* *DB_PORT=.*/DB_PORT=${DB_PORT}/" .env
@@ -29,6 +28,8 @@ if [ ! -f "$SETUP_LOCK_FILE" ]; then
     sed -i "s/^#* *DB_PASSWORD=.*/DB_PASSWORD=${DB_PASSWORD}/" .env
 
     php artisan migrate:fresh --seed --force
+
+    sed -i "s/^APP_ENV=.*/APP_ENV=production/" .env
 
     touch "$SETUP_LOCK_FILE"
 
