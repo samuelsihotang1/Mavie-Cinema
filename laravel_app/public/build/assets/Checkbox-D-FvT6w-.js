@@ -1,0 +1,1 @@
+import{R as i}from"./app-24gqHsWN.js";function a({name:e,value:o,handleChange:r,checked:n=!1}){return i.createElement("input",{type:"checkbox",name:e,value:o,className:"rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50",onChange:c=>r(c),defaultChecked:n})}export{a as C};

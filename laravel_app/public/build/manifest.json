@@ -1,0 +1,608 @@
+{
+  "_ApplicationLogo-IGHN0sTq.js": {
+    "file": "assets/ApplicationLogo-IGHN0sTq.js",
+    "name": "ApplicationLogo",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_Button-BfQiTtIE.js": {
+    "file": "assets/Button-BfQiTtIE.js",
+    "name": "Button",
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-CpJEsHIb.js"
+    ]
+  },
+  "_Checkbox-D-FvT6w-.js": {
+    "file": "assets/Checkbox-D-FvT6w-.js",
+    "name": "Checkbox",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_Guest-D6M-jQWH.js": {
+    "file": "assets/Guest-D6M-jQWH.js",
+    "name": "Guest",
+    "imports": [
+      "resources/js/app.jsx",
+      "_ApplicationLogo-IGHN0sTq.js"
+    ]
+  },
+  "_Index-bhj4U-QP.js": {
+    "file": "assets/Index-bhj4U-QP.js",
+    "name": "Index",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_Input-BEix5t4Q.js": {
+    "file": "assets/Input-BEix5t4Q.js",
+    "name": "Input",
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-CpJEsHIb.js"
+    ]
+  },
+  "_Label-CRQmSpCw.js": {
+    "file": "assets/Label-CRQmSpCw.js",
+    "name": "Label",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_MovieCard-2QSeJe04.js": {
+    "file": "assets/MovieCard-2QSeJe04.js",
+    "name": "MovieCard",
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-CpJEsHIb.js"
+    ],
+    "dynamicImports": [
+      "_index-DeVYtkvg.js"
+    ]
+  },
+  "_SubscriptionCard-DXnXB7l1.js": {
+    "file": "assets/SubscriptionCard-DXnXB7l1.js",
+    "name": "SubscriptionCard",
+    "imports": [
+      "_Button-BfQiTtIE.js",
+      "resources/js/app.jsx"
+    ]
+  },
+  "_ValidationErrors-DhA2eJVB.js": {
+    "file": "assets/ValidationErrors-DhA2eJVB.js",
+    "name": "ValidationErrors",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_custom-media-element-Ce0vsE-t.js": {
+    "file": "assets/custom-media-element-Ce0vsE-t.js",
+    "name": "custom-media-element"
+  },
+  "_hls-BlUEWaWK.js": {
+    "file": "assets/hls-BlUEWaWK.js",
+    "name": "hls"
+  },
+  "_index-CYYPyU9Q.js": {
+    "file": "assets/index-CYYPyU9Q.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_index-CpJEsHIb.js": {
+    "file": "assets/index-CpJEsHIb.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_index-DPDF_NRI.js": {
+    "file": "assets/index-DPDF_NRI.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "dynamicImports": [
+      "node_modules/hls-video-element/dist/react.js",
+      "node_modules/dash-video-element/dist/react.js",
+      "node_modules/@mux/mux-player-react/dist/index.mjs",
+      "node_modules/youtube-video-element/dist/react.js",
+      "node_modules/vimeo-video-element/dist/react.js",
+      "node_modules/wistia-video-element/dist/react.js",
+      "node_modules/spotify-audio-element/dist/react.js",
+      "node_modules/twitch-video-element/dist/react.js",
+      "node_modules/tiktok-video-element/dist/react.js",
+      "node_modules/react-player/dist/Preview.js"
+    ]
+  },
+  "_index-DeVYtkvg.js": {
+    "file": "assets/index-DeVYtkvg.js",
+    "name": "index",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_MovieCard-2QSeJe04.js"
+    ]
+  },
+  "node_modules/@mux/mux-player-react/dist/index.mjs": {
+    "file": "assets/index-C7wV3PWL.js",
+    "name": "index",
+    "src": "node_modules/@mux/mux-player-react/dist/index.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_hls-BlUEWaWK.js",
+      "_custom-media-element-Ce0vsE-t.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "node_modules/dash-video-element/dist/react.js": {
+    "file": "assets/react-CWmm2ctW.js",
+    "name": "react",
+    "src": "node_modules/dash-video-element/dist/react.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_custom-media-element-Ce0vsE-t.js"
+    ],
+    "dynamicImports": [
+      "node_modules/dashjs/dist/modern/esm/dash.all.min.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "node_modules/dashjs/dist/modern/esm/dash.all.min.js": {
+    "file": "assets/dash.all.min-c_ldjLP4.js",
+    "name": "dash.all.min",
+    "src": "node_modules/dashjs/dist/modern/esm/dash.all.min.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/hls-video-element/dist/react.js": {
+    "file": "assets/react-C2A_yp-X.js",
+    "name": "react",
+    "src": "node_modules/hls-video-element/dist/react.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_custom-media-element-Ce0vsE-t.js",
+      "_hls-BlUEWaWK.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "node_modules/react-player/dist/Preview.js": {
+    "file": "assets/Preview-D-JGopsG.js",
+    "name": "Preview",
+    "src": "node_modules/react-player/dist/Preview.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "node_modules/spotify-audio-element/dist/react.js": {
+    "file": "assets/react-DeODz_jC.js",
+    "name": "react",
+    "src": "node_modules/spotify-audio-element/dist/react.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "node_modules/tiktok-video-element/dist/react.js": {
+    "file": "assets/react-B0lmIpAm.js",
+    "name": "react",
+    "src": "node_modules/tiktok-video-element/dist/react.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "node_modules/twitch-video-element/dist/react.js": {
+    "file": "assets/react-BWPixw_K.js",
+    "name": "react",
+    "src": "node_modules/twitch-video-element/dist/react.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "node_modules/vimeo-video-element/dist/react.js": {
+    "file": "assets/react-Pj2jvzke.js",
+    "name": "react",
+    "src": "node_modules/vimeo-video-element/dist/react.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "node_modules/wistia-video-element/dist/react.js": {
+    "file": "assets/react-C-hN3Pxw.js",
+    "name": "react",
+    "src": "node_modules/wistia-video-element/dist/react.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "node_modules/youtube-video-element/dist/react.js": {
+    "file": "assets/react-kBysnJia.js",
+    "name": "react",
+    "src": "node_modules/youtube-video-element/dist/react.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-uywEbo9W.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/Pages/Admin/Movie/Create.jsx": {
+    "file": "assets/Create-rSG1WSzN.js",
+    "name": "Create",
+    "src": "resources/js/Pages/Admin/Movie/Create.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Index-bhj4U-QP.js",
+      "_Label-CRQmSpCw.js",
+      "_Input-BEix5t4Q.js",
+      "_Checkbox-D-FvT6w-.js",
+      "_Button-BfQiTtIE.js",
+      "_ValidationErrors-DhA2eJVB.js",
+      "resources/js/app.jsx",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Admin/Movie/Edit.jsx": {
+    "file": "assets/Edit-Bp-oLKGf.js",
+    "name": "Edit",
+    "src": "resources/js/Pages/Admin/Movie/Edit.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Index-bhj4U-QP.js",
+      "_Label-CRQmSpCw.js",
+      "_Input-BEix5t4Q.js",
+      "_Checkbox-D-FvT6w-.js",
+      "_Button-BfQiTtIE.js",
+      "_ValidationErrors-DhA2eJVB.js",
+      "resources/js/app.jsx",
+      "_index-CYYPyU9Q.js",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Admin/Movie/Index.jsx": {
+    "file": "assets/Index-Bq3uVzua.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Admin/Movie/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Index-bhj4U-QP.js",
+      "_Button-BfQiTtIE.js",
+      "resources/js/app.jsx",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Auth/ConfirmPassword.jsx": {
+    "file": "assets/ConfirmPassword-CsS8DKQ5.js",
+    "name": "ConfirmPassword",
+    "src": "resources/js/Pages/Auth/ConfirmPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Button-BfQiTtIE.js",
+      "_Guest-D6M-jQWH.js",
+      "_Input-BEix5t4Q.js",
+      "_Label-CRQmSpCw.js",
+      "_ValidationErrors-DhA2eJVB.js",
+      "_index-CpJEsHIb.js",
+      "_ApplicationLogo-IGHN0sTq.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Auth/ForgotPassword.jsx": {
+    "file": "assets/ForgotPassword-C-8_kFLY.js",
+    "name": "ForgotPassword",
+    "src": "resources/js/Pages/Auth/ForgotPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Button-BfQiTtIE.js",
+      "_Guest-D6M-jQWH.js",
+      "_Input-BEix5t4Q.js",
+      "_ValidationErrors-DhA2eJVB.js",
+      "_index-CpJEsHIb.js",
+      "_ApplicationLogo-IGHN0sTq.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.jsx": {
+    "file": "assets/Login-DLcviZqz.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Input-BEix5t4Q.js",
+      "_Label-CRQmSpCw.js",
+      "_Button-BfQiTtIE.js",
+      "_ValidationErrors-DhA2eJVB.js",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Auth/Register.jsx": {
+    "file": "assets/Register-DVEjK6tb.js",
+    "name": "Register",
+    "src": "resources/js/Pages/Auth/Register.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Label-CRQmSpCw.js",
+      "_Input-BEix5t4Q.js",
+      "_Button-BfQiTtIE.js",
+      "_ValidationErrors-DhA2eJVB.js",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Auth/ResetPassword.jsx": {
+    "file": "assets/ResetPassword-CGpTy0lC.js",
+    "name": "ResetPassword",
+    "src": "resources/js/Pages/Auth/ResetPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Button-BfQiTtIE.js",
+      "_Guest-D6M-jQWH.js",
+      "_Input-BEix5t4Q.js",
+      "_Label-CRQmSpCw.js",
+      "_ValidationErrors-DhA2eJVB.js",
+      "_index-CpJEsHIb.js",
+      "_ApplicationLogo-IGHN0sTq.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Auth/VerifyEmail.jsx": {
+    "file": "assets/VerifyEmail-CJFf_sIf.js",
+    "name": "VerifyEmail",
+    "src": "resources/js/Pages/Auth/VerifyEmail.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_Button-BfQiTtIE.js",
+      "_Guest-D6M-jQWH.js",
+      "_index-CpJEsHIb.js",
+      "_ApplicationLogo-IGHN0sTq.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Dashboard.jsx": {
+    "file": "assets/Dashboard-8dllIrHF.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_ApplicationLogo-IGHN0sTq.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Prototype/Dashboard.jsx": {
+    "file": "assets/Dashboard-iwqltL-Q.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Prototype/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_MovieCard-2QSeJe04.js",
+      "resources/js/app.jsx",
+      "_Index-bhj4U-QP.js",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Prototype/Login.jsx": {
+    "file": "assets/Login-Bnnz77MX.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Prototype/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Input-BEix5t4Q.js",
+      "_Label-CRQmSpCw.js",
+      "_Button-BfQiTtIE.js",
+      "resources/js/app.jsx",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Prototype/Movie/Show.jsx": {
+    "file": "assets/Show-BWP11pEq.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Prototype/Movie/Show.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-DPDF_NRI.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Prototype/Register.jsx": {
+    "file": "assets/Register-XZivGklR.js",
+    "name": "Register",
+    "src": "resources/js/Pages/Prototype/Register.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Label-CRQmSpCw.js",
+      "_Input-BEix5t4Q.js",
+      "_Button-BfQiTtIE.js",
+      "resources/js/app.jsx",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Prototype/SubscriptionPlan.jsx": {
+    "file": "assets/SubscriptionPlan-Ck707hhn.js",
+    "name": "SubscriptionPlan",
+    "src": "resources/js/Pages/Prototype/SubscriptionPlan.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Index-bhj4U-QP.js",
+      "_SubscriptionCard-DXnXB7l1.js",
+      "resources/js/app.jsx",
+      "_Button-BfQiTtIE.js",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/User/Dashboard/Index.jsx": {
+    "file": "assets/Index-DcbyAKHa.js",
+    "name": "Index",
+    "src": "resources/js/Pages/User/Dashboard/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_MovieCard-2QSeJe04.js",
+      "resources/js/app.jsx",
+      "_Index-bhj4U-QP.js",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/User/Dashboard/Movie/Show.jsx": {
+    "file": "assets/Show-DQ6TDxK7.js",
+    "name": "Show",
+    "src": "resources/js/Pages/User/Dashboard/Movie/Show.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-DPDF_NRI.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/User/Dashboard/SubscriptionPlan/Index.jsx": {
+    "file": "assets/Index-C2i_Xg9c.js",
+    "name": "Index",
+    "src": "resources/js/Pages/User/Dashboard/SubscriptionPlan/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Index-bhj4U-QP.js",
+      "_SubscriptionCard-DXnXB7l1.js",
+      "_index-CYYPyU9Q.js",
+      "resources/js/app.jsx",
+      "_Button-BfQiTtIE.js",
+      "_index-CpJEsHIb.js"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome-Dx9RlwbR.js",
+    "name": "Welcome",
+    "src": "resources/js/Pages/Welcome.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-24gqHsWN.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Admin/Movie/Create.jsx",
+      "resources/js/Pages/Admin/Movie/Edit.jsx",
+      "resources/js/Pages/Admin/Movie/Index.jsx",
+      "resources/js/Pages/Auth/ConfirmPassword.jsx",
+      "resources/js/Pages/Auth/ForgotPassword.jsx",
+      "resources/js/Pages/Auth/Login.jsx",
+      "resources/js/Pages/Auth/Register.jsx",
+      "resources/js/Pages/Auth/ResetPassword.jsx",
+      "resources/js/Pages/Auth/VerifyEmail.jsx",
+      "resources/js/Pages/Dashboard.jsx",
+      "resources/js/Pages/Prototype/Dashboard.jsx",
+      "resources/js/Pages/Prototype/Login.jsx",
+      "resources/js/Pages/Prototype/Movie/Show.jsx",
+      "resources/js/Pages/Prototype/Register.jsx",
+      "resources/js/Pages/Prototype/SubscriptionPlan.jsx",
+      "resources/js/Pages/User/Dashboard/Index.jsx",
+      "resources/js/Pages/User/Dashboard/Movie/Show.jsx",
+      "resources/js/Pages/User/Dashboard/SubscriptionPlan/Index.jsx",
+      "resources/js/Pages/Welcome.jsx"
+    ],
+    "css": [
+      "assets/app-uywEbo9W.css"
+    ]
+  }
+}
